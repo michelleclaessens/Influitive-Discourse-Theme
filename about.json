@@ -3,24 +3,28 @@
   "about_url": "https://some.url.com",
   "license_url": "https://github.com/michelleclaessens/Influitive-Discourse-Theme/blob/master/LICENSE",
    "assets": {
-       "font-ProximaNova-Regular-1": "assets/ProximaNova-Regular-c07517329a.woff2",
-       "font-ProximaNova-Regular-2": "assets/ProximaNova-Regular-52b03ccd1a.woff",
+       "font-ProximaNova-Regular-woff": "assets/ProximaNova-Regular-52b03ccd1a.woff",
+       "font-ProximaNova-Regular-woff2": "assets/ProximaNova-Regular-c07517329a.woff2",
      
-       "font-ProximaNova-Light-1": "assets/ProximaNova-Light-0c08903bff.woff",
-       "font-ProximaNova-Light-2": "assets/ProximaNova-Light-8ed993d938.woff2",
-       "font-ProximaNova-Light-3": "assets/ProximaNova-Light-0433f69353.eot",
-       "font-ProximaNova-Light-4": "assets/ProximaNova-Light-5416bad2f3.ttf",
+       "font-ProximaNova-Light-woff": "assets/ProximaNova-Light-0c08903bff.woff",
+       "font-ProximaNova-Light-woff2": "assets/ProximaNova-Light-8ed993d938.woff2",
+       "font-ProximaNova-Light-eot": "assets/ProximaNova-Light-0433f69353.eot",
+       "font-ProximaNova-Light-ttf": "assets/ProximaNova-Light-5416bad2f3.ttf",
      
-       "font-ProximaNova-LightIt-1": "assets/ProximaNova-LightIt-563949f226.woff",
-       "font-ProximaNova-LightIt-2": "assets/ProximaNova-LightIt-24898773fa.ttf",
-       "font-ProximaNova-LightIt-3": "assets/ProximaNova-LightIt-c02a693bcb.eot",
-       "font-ProximaNova-LightIt-4": "assets/ProximaNova-LightIt-dd4ab75518.woff2",
+       "font-ProximaNova-LightIt-woff": "assets/ProximaNova-LightIt-563949f226.woff",
+       "font-ProximaNova-LightIt-woff2": "assets/ProximaNova-LightIt-dd4ab75518.woff2",
+       "font-ProximaNova-LightIt-eot": "assets/ProximaNova-LightIt-c02a693bcb.eot",
+       "font-ProximaNova-LightIt-ttf": "assets/ProximaNova-LightIt-24898773fa.ttf",
      
+       "font-ProximaNova-Semibold-woff": "assets/ProximaNova-Semibold-7fd24e7230.woff",
+       "font-ProximaNova-Semibold-woff2": "assets/ProximaNova-Semibold-a9f4f007ee.woff2",
+       "font-ProximaNova-Semibold-eot": "assets/ProximaNova-Semibold-b92ada8185.eot",
+       "font-ProximaNova-Semibold-ttf": "assets/ProximaNova-Semibold-e77e8fb989.ttf",
      
-
-
-
-     
+       "font-ProximaNova-SemiboldIt-woff": "assets/ProximaNova-SemiboldIt-3584d9676d.woff",
+       "font-ProximaNova-SemiboldIt-woff2": "assets/ProximaNova-SemiboldIt-1822ec898c.woff2",
+       "font-ProximaNova-SemiboldIt-eot": "assets/ProximaNova-SemiboldIt-f711b45214.eot",
+       "font-ProximaNova-SemiboldIt-ttf": "assets/ProximaNova-SemiboldIt-0b534dcfa8.ttf"
    },
    "color_schemes": {
        "Influitive Colour Scheme": {
