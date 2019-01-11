@@ -66,9 +66,9 @@
 
 .btn {
   border: none;
-  color: $instagram;
+  color: $primary;
   font-weight: normal;
-  background: $primary-low;
+  background: red;
 
   &[href] {
     color: $primary;
