@@ -2,15 +2,23 @@
 
 @font-face {
 	font-family: 'Proxima Nova';
-	src: url($font-ProximaNova-Regular-woff2) format("woff2");
+	src: url($font-ProximaNova-Regular-woff) format("woff");
 	font-weight: 400
 }
 
 @font-face {
 	font-family: 'Proxima Nova';
-	src: url($font-ProximaNova-Light-woff2) format('woff2');
+	src: url($font-ProximaNova-Light-woff) format('woff');
 	font-weight: 300
 }
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url($font-ProximaNova-Semibold-woff) format('woff');
+	font-weight: 700
+}
+
+
 
 html {
     font-family: 'Proxima Nova';
@@ -28,7 +36,7 @@ html {
 
 .hello-world {
     font-size: $font-up-6;
-	font-weight:300;
+	font-weight:700;
     color: $secondary;
 }
 
