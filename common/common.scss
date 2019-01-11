@@ -91,6 +91,12 @@ html {
 	.btn {
 	  background-color: $tertiary;
 	  color: white;
+		
+	  &.btn-hover {
+	      background: $tertiery-medium;
+	      color: red;
+	  }
+		
 	}
 	
 }
