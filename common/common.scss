@@ -1,13 +1,26 @@
 @import "common/foundation/variables";
 
 @font-face {
-	font-family:Amazing;
-	src:url($font-ProximaNova-Regular-woff2) format("woff2");
-	font-weight:400
+	font-family: 'Proxima Nova';
+	src: url($font-ProximaNova-Regular-woff2) format("woff2");
+	font-weight: 400
 }
 
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url($font-ProximaNova-Light-woff2) format('woff2');
+	font-weight: 300
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url($font-ProximaNova-Semibold-woff2) format('woff2');
+	font-weight: 700
+}
+
+
 html {
-    font-family:Amazing;
+    font-family: 'Proxima Nova';
 }
 
 .hello-world-banner {
