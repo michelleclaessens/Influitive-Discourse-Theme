@@ -68,7 +68,7 @@
   border: none;
   color: $primary;
   font-weight: normal;
-  background: red;
+  background: $primary-low;
 
   &[href] {
     color: $primary;
@@ -107,7 +107,7 @@
   border: none;
   font-weight: normal;
   color: $secondary;
-  background: $tertiary;
+  background: red;
 
   &[href] {
     color: $secondary;
