@@ -51,6 +51,7 @@ html {
 // --------------------------------------------------
 
 .btn {
+  background: $tertiary;
   border-radius: 3px;
 }
 
@@ -71,17 +72,17 @@ ol.category-breadcrumb {
       padding: 6px 0;
 
       &:hover {
-        color: $quaternary;
+        color: $tertiary;
         background: none;
-	border-bottom: 3px solid $quaternary;
+	border-bottom: 3px solid $tertiary;
       }
     }
 
     &.active > a,
     > a.active {
-      color: $quaternary;
+      color: $tertiary;
       background: none;
-      border-bottom: 3px solid $quaternary;
+      border-bottom: 3px solid $tertiary;
     }
   }
 }
