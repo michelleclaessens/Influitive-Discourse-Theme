@@ -7,7 +7,16 @@
    },
    "color_schemes": {
        "Influitive Colour Scheme": {
-          "primary": "ff00f2"
+          "primary": "475666",
+          "secondary": "ffffff",
+          "tertiary": "0A5ECC",
+          "quaternary": "0A5ECC",
+          "header_background": "ffffff",
+          "header_primary": "475666",
+          "highlight": "FDBD00",
+          "danger": "CE063B",
+          "success": "20A960",
+          "love": "0A5ECC"
         }
     }
 }
