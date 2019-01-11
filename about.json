@@ -4,7 +4,11 @@
   "license_url": "https://github.com/michelleclaessens/Influitive-Discourse-Theme/blob/master/LICENSE",
    "assets": {
        "font-ProximaNova-Regular-woff": "assets/ProximaNova-Regular-52b03ccd1a.woff",
-       "font-ProximaNova-Regular-woff2": "assets/ProximaNova-Regular-c07517329a.woff2"
+       "font-ProximaNova-Regular-woff2": "assets/ProximaNova-Regular-c07517329a.woff2",
+       "font-ProximaNova-Light-woff": "assets/ProximaNova-Light-0c08903bff.woff",
+       "font-ProximaNova-Light-woff2": "assets/ProximaNova-Light-8ed993d938.woff2",
+       "font-ProximaNova-Light-eot": "assets/ProximaNova-Light-0433f69353.eot",
+       "font-ProximaNova-Light-ttf": "assets/ProximaNova-Light-5416bad2f3.ttf"
    },
    "color_schemes": {
        "Influitive Colour Scheme": {
