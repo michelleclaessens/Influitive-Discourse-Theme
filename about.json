@@ -3,11 +3,11 @@
   "about_url": "https://some.url.com",
   "license_url": "https://github.com/michelleclaessens/Influitive-Discourse-Theme/blob/master/LICENSE",
    "assets": {
-       "ProximaNova-Regular-woff": "assets/ProximaNova-Regular-52b03ccd1a.woff",
-       "ProximaNova-Light-woff": "assets/ProximaNova-Light-0c08903bff.woff",
-       "ProximaNova-LightIt-woff": "assets/ProximaNova-LightIt-563949f226.woff",
-       "ProximaNova-Semibold-woff": "assets/ProximaNova-Semibold-7fd24e7230.woff",
-       "ProximaNova-SemiboldIt-woff": "assets/ProximaNova-SemiboldIt-3584d9676d.woff"
+       "proximanova-regular-woff": "assets/ProximaNova-Regular-52b03ccd1a.woff",
+       "proximanova-light-woff": "assets/ProximaNova-Light-0c08903bff.woff",
+       "proximanova-lightit-woff": "assets/ProximaNova-LightIt-563949f226.woff",
+       "proximanova-semibold-woff": "assets/ProximaNova-Semibold-7fd24e7230.woff",
+       "proximanova-semiboldit-woff": "assets/ProximaNova-SemiboldIt-3584d9676d.woff"
 },
    "color_schemes": {
        "Influitive Colour Scheme": {
