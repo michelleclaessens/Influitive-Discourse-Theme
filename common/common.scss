@@ -55,14 +55,14 @@ html {
 }
 
 // --------------------------------------------------
-// Navigation menus
+// List Controls
 // --------------------------------------------------
 
-ol.category-breadcrumb {
+.list-controls ol.category-breadcrumb {
   margin: 0 32px 10px 0;
 }
 
-#navigation-bar.nav-pills {
+.list-controls.nav-pills {
   
   > li {
     margin-right: 24px;
