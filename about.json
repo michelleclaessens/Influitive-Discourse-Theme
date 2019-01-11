@@ -1,5 +1,13 @@
 {
   "name": "Influitive Discourse Theme",
   "about_url": "https://some.url.com",
-  "license_url": "https://github.com/michelleclaessens/Influitive-Discourse-Theme/blob/master/LICENSE"
+  "license_url": "https://github.com/michelleclaessens/Influitive-Discourse-Theme/blob/master/LICENSE",
+  "assets": {
+       "font": "assets/some_font.woff2"
+   },
+   "color_schemes": {
+       "Influitive Colour Scheme": {
+          "primary": "AAABBB"
+        }
+    }
 }
