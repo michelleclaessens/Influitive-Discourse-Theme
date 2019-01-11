@@ -3,7 +3,8 @@
   "about_url": "https://some.url.com",
   "license_url": "https://github.com/michelleclaessens/Influitive-Discourse-Theme/blob/master/LICENSE",
   "assets": {
-       "font": "assets/some_font.woff2"
+       "font": "assets/ProximaNova-Regular-c07517329a.woff2",
+       "font": "assets/ProximaNova-Regular-52b03ccd1a.woff"
    },
    "color_schemes": {
        "Influitive Colour Scheme": {
