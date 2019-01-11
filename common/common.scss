@@ -58,30 +58,34 @@ html {
 // List Controls
 // --------------------------------------------------
 
-.list-controls ol.category-breadcrumb {
-  margin: 0 32px 10px 0;
-}
+.list-controls {
 
-.list-controls.nav-pills {
-  
-  > li {
-    margin-right: 24px;
+	ol.category-breadcrumb {
+	  margin: 0 32px 10px 0;
+	}
 
-    > a {
-      padding: 6px 0;
+	.nav-pills {
 
-      &:hover {
-        color: $tertiary;
-        background: none;
-	border-bottom: 3px solid $tertiary;
-      }
-    }
+	  > li {
+	    margin-right: 24px;
 
-    &.active > a,
-    > a.active {
-      color: $tertiary;
-      background: none;
-      border-bottom: 3px solid $tertiary;
-    }
-  }
+	    > a {
+	      padding: 6px 0;
+
+	      &:hover {
+		color: $tertiary;
+		background: none;
+		border-bottom: 3px solid $tertiary;
+	      }
+	    }
+
+	    &.active > a,
+	    > a.active {
+	      color: $tertiary;
+	      background: none;
+	      border-bottom: 3px solid $tertiary;
+	    }
+	  }
+	}
+	
 }
