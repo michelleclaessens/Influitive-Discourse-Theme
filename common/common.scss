@@ -1,5 +1,9 @@
 @import "common/foundation/variables";
 
+// --------------------------------------------------
+// Fonts
+// --------------------------------------------------
+
 @font-face {
 	font-family: 'Proxima Nova';
 	src: url($proximanova-regular-woff) format("woff");
@@ -22,6 +26,10 @@ html {
     font-family: 'Proxima Nova';
 }
 
+// --------------------------------------------------
+// Testing
+// --------------------------------------------------
+
 .hello-world-banner {
     height: 300px;
     width: 100%;
@@ -38,13 +46,13 @@ html {
     color: $secondary;
 }
 
+// --------------------------------------------------
+// Buttons
+// --------------------------------------------------
 
 .btn {
   border-radius: 3px;
 }
-
-
-
 
 // --------------------------------------------------
 // Navigation menus
@@ -105,63 +113,5 @@ html {
         opacity: 1;
       }
     }
-  }
-}
-
-// Stacked nav
-// --------------------------------------------------
-
-.nav-stacked {
-  @extend %nav;
-  padding: 0;
-  overflow: hidden;
-  background: $primary-low;
-
-  li {
-    border-bottom: 1px solid $primary-low;
-    position: relative;
-
-    &:last-of-type {
-      border-bottom: 0;
-    }
-
-    &.indent {
-      padding-left: 15px;
-    }
-  }
-
-  a {
-    margin: 0;
-    padding: 13px;
-    font-size: $font-up-1;
-    line-height: $line-height-small;
-    cursor: pointer;
-    color: $primary;
-
-    &.active {
-      color: $secondary;
-      background-color: $quaternary;
-
-      &::after {
-        left: 90%;
-        top: 33%;
-        content: " ";
-        position: absolute;
-        border: 8px solid transparent;
-        border-left-color: $secondary;
-      }
-    }
-  }
-
-  .count {
-    font-size: $font-down-1;
-  }
-
-  .glyph {
-    font-size: $font-down-1;
-    width: 1.25em;
-    text-align: center;
-    margin-right: 0.25em;
-    line-height: $line-height-large;
   }
 }
