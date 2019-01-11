@@ -1,40 +1,6 @@
 @import "common/foundation/variables";
 
-@font-face {
-	font-family:'Proxima Nova';
-	src:url(/assets/fonts/ProximaNova-Regular-c07517329a.woff2) format("woff2"),url(/assets/fonts/ProximaNova-Regular-52b03ccd1a.woff) format("woff");
-	font-weight:400
-}
 
-@font-face {
-	font-family:'Proxima Nova';
-	src:url(/assets/fonts/ProximaNova-Light-0433f69353.eot);
-	src:url(/assets/fonts/ProximaNova-Light-0433f69353.eot?#iefix) format("embedded-opentype"),url(/assets/fonts/ProximaNova-Light-8ed993d938.woff2) format("woff2"),url(/assets/fonts/ProximaNova-Light-0c08903bff.woff) format("woff"),url(/assets/fonts/ProximaNova-Light-5416bad2f3.ttf) format("truetype");
-	font-weight:300
-}
-
-@font-face {
-	font-family:'Proxima Nova';
-	src:url(/assets/fonts/ProximaNova-LightIt-c02a693bcb.eot);
-	src:url(/assets/fonts/ProximaNova-LightIt-c02a693bcb.eot?#iefix) format("embedded-opentype"),url(/assets/fonts/ProximaNova-LightIt-dd4ab75518.woff2) format("woff2"),url(/assets/fonts/ProximaNova-LightIt-563949f226.woff) format("woff"),url(/assets/fonts/ProximaNova-LightIt-24898773fa.ttf) format("truetype");
-	font-weight:300;
-	font-style:italic
-}
-
-@font-face {
-	font-family:'Proxima Nova';
-	src:url(/assets/fonts/ProximaNova-Semibold-b92ada8185.eot);
-	src:url(/assets/fonts/ProximaNova-Semibold-b92ada8185.eot?#iefix) format("embedded-opentype"),url(/assets/fonts/ProximaNova-Semibold-a9f4f007ee.woff2) format("woff2"),url(/assets/fonts/ProximaNova-Semibold-7fd24e7230.woff) format("woff"),url(/assets/fonts/ProximaNova-Semibold-e77e8fb989.ttf) format("truetype");
-	font-weight:700
-}
-
-@font-face {
-	font-family:'Proxima Nova';
-	src:url(/assets/fonts/ProximaNova-SemiboldIt-f711b45214.eot);
-	src:url(/assets/fonts/ProximaNova-SemiboldIt-f711b45214.eot?#iefix) format("embedded-opentype"),url(/assets/fonts/ProximaNova-SemiboldIt-1822ec898c.woff2) format("woff2"),url(/assets/fonts/ProximaNova-SemiboldIt-3584d9676d.woff) format("woff"),url(/assets/fonts/ProximaNova-SemiboldIt-0b534dcfa8.ttf) format("truetype");
-	font-weight:700;
-	font-style:italic
-}
 
 html {
     font-family:'Proxima Nova';
