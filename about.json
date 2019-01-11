@@ -5,10 +5,22 @@
    "assets": {
        "font-ProximaNova-Regular-1": "assets/ProximaNova-Regular-c07517329a.woff2",
        "font-ProximaNova-Regular-2": "assets/ProximaNova-Regular-52b03ccd1a.woff",
+     
        "font-ProximaNova-Light-1": "assets/ProximaNova-Light-0c08903bff.woff",
        "font-ProximaNova-Light-2": "assets/ProximaNova-Light-8ed993d938.woff2",
        "font-ProximaNova-Light-3": "assets/ProximaNova-Light-0433f69353.eot",
-       "font-ProximaNova-Light-4": "assets/ProximaNova-Light-5416bad2f3.ttf"
+       "font-ProximaNova-Light-4": "assets/ProximaNova-Light-5416bad2f3.ttf",
+     
+       "font-ProximaNova-LightIt-1": "assets/ProximaNova-LightIt-563949f226.woff",
+       "font-ProximaNova-LightIt-2": "assets/ProximaNova-LightIt-24898773fa.ttf",
+       "font-ProximaNova-LightIt-3": "assets/ProximaNova-LightIt-c02a693bcb.eot",
+       "font-ProximaNova-LightIt-4": "assets/ProximaNova-LightIt-dd4ab75518.woff2",
+     
+     
+
+
+
+     
    },
    "color_schemes": {
        "Influitive Colour Scheme": {
