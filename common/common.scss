@@ -58,25 +58,11 @@ html {
 // Navigation menus
 // --------------------------------------------------
 
-// Base
-// --------------------------------------------------
-
-%nav {
-  margin-left: 0;
-  list-style: none;
-  li a {
-    display: block;
-    text-decoration: none;
-  }
-}
-
-// Pill nav
+// Pill nav .nav-pills li.active a
 // --------------------------------------------------
 
 .nav-pills {
-  @extend %nav;
-  @extend .clearfix;
-
+  
   > li {
     float: left;
     margin-right: 5px;
@@ -93,11 +79,6 @@ html {
       align-items: center;
       transition: background 0.15s;
 
-      .d-icon {
-        margin-right: 5px;
-        opacity: 0.65;
-      }
-
       &:hover {
         color: $quaternary;
         background-color: $quaternary-low;
@@ -109,9 +90,6 @@ html {
       color: $quaternary;
       border-bottom: 3px solid $quaternary;
 
-      .d-icon {
-        opacity: 1;
-      }
     }
   }
 }
