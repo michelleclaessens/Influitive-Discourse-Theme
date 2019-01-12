@@ -59,11 +59,18 @@ html {
 // --------------------------------------------------
 
 .list-controls {
+	
+	// Category selector
+	.list-controls .combo-box .combo-box-header {
+		border-radius: 3px;
+	}
 
+	// Breadcrumb spacing
 	ol.category-breadcrumb {
 	  margin: 0 32px 10px 0;
 	}
 
+	// Tab styles
 	.nav-pills {
 
 	  > li {
@@ -88,6 +95,7 @@ html {
 	  }
 	}
 	
+	// New topic button
 	.btn {
 	  background-color: $tertiary;
 	  color: $secondary;
