@@ -42,7 +42,7 @@ html {
 
 .hello-world {
     font-size: $font-up-6;
-	font-weight:700;
+    font-weight:700;
     color: $secondary;
 }
 
@@ -129,4 +129,11 @@ html {
 
 .category-list tbody .category {
 	border-left: none;
+}
+
+// Smaller footer message
+
+.footer-message h3 {
+	font-size: $font-up-4;
+	font-weight: 400;
 }
