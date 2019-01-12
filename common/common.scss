@@ -120,3 +120,9 @@ html {
 .topic-list tbody tr.last-visit {
 	border-bottom: 1px solid #ebeef1;
 }
+
+// Hide category colour badges
+
+.badge-category-bg {
+	display: none;
+}
