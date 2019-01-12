@@ -126,3 +126,7 @@ html {
 .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {
 	display: none;
 }
+
+.category-list tbody .category {
+	border-left: none;
+}
