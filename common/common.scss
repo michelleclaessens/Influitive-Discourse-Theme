@@ -92,11 +92,7 @@ html {
 	.btn {
 	  background-color: $tertiary;
 	  color: $secondary;
-
-	  &[href] {
-	    color: $tertiary;
-	    min-height: unset; // ovverides button defaults
-	  }
+		
 	  .discourse-no-touch & {
 	    // only allow hover on no-touch devices
 	    &:hover,
