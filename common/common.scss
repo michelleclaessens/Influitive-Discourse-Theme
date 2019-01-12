@@ -123,6 +123,6 @@ html {
 
 // Hide category colour badges
 
-.badge-category-bg {
+.badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {
 	display: none;
 }
