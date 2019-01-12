@@ -108,3 +108,15 @@ html {
 	}
 	
 }
+
+// --------------------------------------------------
+// Topic List
+// --------------------------------------------------
+
+.topic-list-item-separator {
+	display: none;
+}
+
+.topic-list>tbody>tr.last-visit {
+	border-bottom: 1px solid #ebeef1;
+}
