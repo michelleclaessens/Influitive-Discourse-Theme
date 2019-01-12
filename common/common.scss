@@ -88,13 +88,14 @@ html {
 	  }
 	}
 	
-	
 	.btn {
 	  background-color: $tertiary;
 	  color: $secondary;
 		
+	  &[href] {
+	    color: $secondary;
+	  }
 	  .discourse-no-touch & {
-	    // only allow hover on no-touch devices
 	    &:hover,
 	    &.btn-hover {
 	      background: $tertiary-high;
@@ -103,11 +104,14 @@ html {
 	  }
 	}
 	
+	
 }
 
 // --------------------------------------------------
 // Topic List
 // --------------------------------------------------
+
+// Remove the "last visit" line
 
 .topic-list-item-separator {
 	display: none;
