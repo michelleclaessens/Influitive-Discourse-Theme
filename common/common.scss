@@ -157,3 +157,13 @@ html {
 	color: $quaternary;
 	font-weight: 700;
 }
+
+// Overlap avatars
+
+.topic-list .posters a {
+	margin-right: -5px;
+}
+
+.topic-list .posters img.avatar {
+	border: 2px solid $secondary;
+}
