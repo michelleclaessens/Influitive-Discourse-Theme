@@ -119,9 +119,9 @@ html {
 	  color: red;//$secondary;
 	  background: $tertiary;
 
-	  &[href] {
+	  /*&[href] {
 	    color: $secondary;
-	  }
+	  }*/
 	  .discourse-no-touch & {
 	    // only allow hover on no-touch devices
 	    &:hover,
@@ -139,10 +139,10 @@ html {
 	      $tertiary
 	    );
 	  }
-	  &[disabled],
+	  /*&[disabled],
 	  &.disabled {
 	    background: $tertiary;
-	  }
+	  }*/
 	}
 	
 	
