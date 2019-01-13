@@ -148,7 +148,8 @@ html {
 }
 
 // Smaller footer message
-.footer-message h3 {
+.footer-message h3,
+h3.suggested-topics-message {
    font-size: $font-0;
    font-weight: 400;
 }
