@@ -182,3 +182,6 @@ html {
 .badge-notification.new-topic::before {
    content: 'whatever it is you want to add';
 }
+.badge-notification.new-topic {
+   background: $primary;
+}
