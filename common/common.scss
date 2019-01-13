@@ -119,7 +119,7 @@ html {
       &[href] {
          color: $secondary;
       }
-      /*.discourse-no-touch & {
+      .discourse-no-touch & {
          // only allow hover on no-touch devices
          &:hover,
          &.btn-hover {
@@ -129,7 +129,7 @@ html {
             );
          }
       }
-      &:active,
+      /*&:active,
       &.btn-active {
          @include linear-gradient(
             scale-color($tertiary, $lightness: -20%),
