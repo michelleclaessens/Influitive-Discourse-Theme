@@ -214,7 +214,14 @@ h3.suggested-topics-message {
 // Topic Page
 // --------------------------------------------------
 
-//Hide bookmark button
+// Hide bookmark button
 .topic-footer-main-buttons button.bookmark {
    display: none;
+}
+
+// Suggested topics list
+h3.suggested-topics-title {
+   color: $quaternary;
+   font-weight: 400;
+   font-size: $font-up-2;
 }
