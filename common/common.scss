@@ -198,6 +198,9 @@ html {
    text-transform: capitalize;
 
    &::after {
-      content: "New Replies";
+      content: " New Replies";
    }
+}
+.badge-notification.new-posts[title="you have 1 unread post in this topic"] {
+	color:green;
 }
