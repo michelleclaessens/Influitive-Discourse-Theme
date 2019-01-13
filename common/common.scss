@@ -209,3 +209,12 @@ h3.suggested-topics-message {
       }
    }
 }
+
+// --------------------------------------------------
+// Topic Page
+// --------------------------------------------------
+
+//Hide bookmark button
+.topic-footer-main-buttons button.bookmark {
+   display: none;
+}
