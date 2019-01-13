@@ -177,3 +177,8 @@ html {
 .category-list tbody .category h3 a[href] {
    color: $quaternary;
 }
+
+//New topic badge
+.badge-notification.new-topic:after {
+  content: 'whatever it is you want to add';
+}
