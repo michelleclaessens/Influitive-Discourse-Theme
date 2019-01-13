@@ -5,25 +5,25 @@
 // --------------------------------------------------
 
 @font-face {
-	font-family: 'Proxima Nova';
-	src: url($proximanova-regular-woff) format("woff");
-	font-weight: 400
+   font-family: 'Proxima Nova';
+   src: url($proximanova-regular-woff) format("woff");
+   font-weight: 400
 }
 
 @font-face {
-	font-family: 'Proxima Nova';
-	src: url($proximanova-light-woff) format('woff');
-	font-weight: 300
+   font-family: 'Proxima Nova';
+   src: url($proximanova-light-woff) format('woff');
+   font-weight: 300
 }
 
 @font-face {
-	font-family: 'Proxima Nova';
-	src: url($proximanova-semibold-woff) format('woff');
-	font-weight: 700
+   font-family: 'Proxima Nova';
+   src: url($proximanova-semibold-woff) format('woff');
+   font-weight: 700
 }
 
 html {
-    font-family: 'Proxima Nova';
+   font-family: 'Proxima Nova';
 }
 
 // --------------------------------------------------
@@ -31,19 +31,19 @@ html {
 // --------------------------------------------------
 
 .hello-world-banner {
-    height: 300px;
-    width: 100%;
-    background: $instagram;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1em;
+   height: 300px;
+   width: 100%;
+   background: $instagram;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 1em;
 }
 
 .hello-world {
-    font-size: $font-up-6;
-    font-weight:700;
-    color: $secondary;
+   font-size: $font-up-6;
+   font-weight:700;
+   color: $secondary;
 }
 
 // --------------------------------------------------
@@ -51,7 +51,7 @@ html {
 // --------------------------------------------------
 
 .btn {
-  border-radius: 3px;
+   border-radius: 3px;
 }
 
 // --------------------------------------------------
@@ -60,91 +60,92 @@ html {
 
 .list-controls {
 	
-	// Category selector
-	.combo-box .combo-box-header {
-		border-radius: 3px;
-	}
+   // Category selector
+   .combo-box .combo-box-header {
+      border-radius: 3px;
+   }
 
-	// Breadcrumb spacing
-	ol.category-breadcrumb {
-	  margin: 0 32px 10px 0;
-	}
+   // Breadcrumb spacing
+   ol.category-breadcrumb {
+      margin: 0 32px 10px 0;
+   }
 
-	// Tab styles
-	.nav-pills {
+   // Tab styles
+   .nav-pills {
+      > li {
+         margin-right: 24px;
+	      
+	 > a {
+            padding: 6px 0;
+		 
+            &:hover {
+	       color: $tertiary;
+	       background: none;
+	       border-bottom: 3px solid $tertiary;
+            }
+	 }
 
-	  > li {
-	    margin-right: 24px;
-
-	    > a {
-	      padding: 6px 0;
-
-	      &:hover {
-		color: $tertiary;
-		background: none;
-		border-bottom: 3px solid $tertiary;
-	      }
-	    }
-
-	    &.active > a,
-	    > a.active {
-	      color: $tertiary;
-	      background: none;
-	      border-bottom: 3px solid $tertiary;
-	    }
-	  }
-	}
+         &.active > a,
+	 > a.active {
+            color: $tertiary;
+	    background: none;
+	    border-bottom: 3px solid $tertiary;
+	 }
+      }
+   }
 	
-	// New topic button
-	/*.btn {
-	  background-color: $tertiary;
-	  color: $secondary;
+   // New topic button
+   /*.btn {
+      background-color: $tertiary;
+      color: $secondary;
 		
-	  &[href] {
-	    color: $secondary;
-	  }
-	  .discourse-no-touch & {
-	    &:hover,
-	    &.btn-hover {
-	      background: $tertiary-high;
-	      color: $secondary;
-	    }
-	  }
-	}*/
-	
-	
-	.btn {
-	  border: none;
-	  font-weight: normal;
-	  color: red;//$secondary;
-	  background: $tertiary;
+      &[href] {
+         color: $secondary;
+      }
 
-	  /*&[href] {
+      .discourse-no-touch & {
+         &:hover,
+         &.btn-hover {
+            background: $tertiary-high;
 	    color: $secondary;
-	  }*/
-	  .discourse-no-touch & {
-	    // only allow hover on no-touch devices
-	    &:hover,
-	    /*&.btn-hover {
-	      background: dark-light-choose(
-		scale-color($tertiary, $lightness: -20%),
-		scale-color($tertiary, $lightness: 20%)
-	      );
-	    }*/
-	  }
-	  &:active,
-	  &.btn-active {
-	    @include linear-gradient(
-	      scale-color($tertiary, $lightness: -20%),
-	      $tertiary
-	    );
-	  }
-	  /*&[disabled],
-	  &.disabled {
-	    background: $tertiary;
-	  }*/
-	}
+	 }
+      }
+   }*/
 	
+   .btn {
+      border: none;
+      font-weight: normal;
+      color: red;//$secondary;
+      background: $tertiary;
+
+      /*&[href] {
+         color: $secondary;
+      }*/
+
+      .discourse-no-touch & {
+         // only allow hover on no-touch devices
+         &:hover,
+         /*&.btn-hover {
+            background: dark-light-choose(
+               scale-color($tertiary, $lightness: -20%),
+	       scale-color($tertiary, $lightness: 20%)
+	    );
+	 }*/
+      }
+
+      &:active,
+      &.btn-active {
+         @include linear-gradient(
+            scale-color($tertiary, $lightness: -20%),
+            $tertiary
+         );
+      }
+
+      /*&[disabled],
+      &.disabled {
+         background: $tertiary;
+      }*/
+   }
 	
 }
 
@@ -153,54 +154,43 @@ html {
 // --------------------------------------------------
 
 // Remove the "last visit" line
-
 .topic-list-item-separator {
-	display: none;
+   display: none;
 }
-
 .topic-list tbody tr.last-visit {
-	border-bottom: 1px solid #ebeef1;
+   border-bottom: 1px solid #ebeef1;
 }
 
 // Hide category colour badges
-
 .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {
-	display: none;
+   display: none;
 }
-
 .category-list tbody .category {
-	border-left: none;
+   border-left: none;
 }
 
 // Smaller footer message
-
 .footer-message h3 {
-	font-size: $font-0;
-	font-weight: 400;
+   font-size: $font-0;
+   font-weight: 400;
 }
 
 // Visited and not visited topics
-
 .topic-list-item.visited a.title:not(.badge-notification), .latest-topic-list-item.visited a.title:not(.badge-notification), .category-topic-link.visited a.title:not(.badge-notification) {
-	color: $primary;
-	font-weight: 400;
+   color: $primary;
+   font-weight: 400;
 }
-
 .topic-list-main-link a.title, .topic-list .main-link a.title, .latest-topic-list-item .main-link a.title {
-	color: $quaternary;
-	font-weight: 700;
+   color: $quaternary;
+   font-weight: 700;
 }
 
 // Overlap avatars
-
 .topic-list .posters {
-	
-	a {
-		margin-right: -5px;
-	}
-
-	img.avatar {
-		border: 2px solid $secondary;
-	}
-
+   a {
+      margin-right: -5px;
+   }
+   img.avatar {
+      border: 2px solid $secondary;
+   }
 }
