@@ -172,3 +172,8 @@ html {
       border: 2px solid $secondary;
    }
 }
+
+//Colour of category title
+.category-list tbody .category h3 a[href] {
+   color: $quaternary;
+}
