@@ -183,6 +183,7 @@ html {
    background: $tertiary;
    color: $secondary;
    font-size: $font-down-2;
+   text-transform: capitalize;
 	
    &::before {
       content: attr(title);
