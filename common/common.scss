@@ -182,6 +182,7 @@ html {
 .badge-notification.new-topic {
    background: $tertiary;
    color: $secondary;
+   font-size: $font-down-2;
 	
    &::before {
       content: 'whatever it is you want to add';
