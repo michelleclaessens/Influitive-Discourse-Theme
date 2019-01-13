@@ -179,9 +179,11 @@ html {
 }
 
 //New topic badge
-.badge-notification.new-topic::before {
-   content: 'whatever it is you want to add';
-}
 .badge-notification.new-topic {
-   background: $primary;
+   background: $tertiary;
+   color: $secondary;
+	
+   &::before {
+      content: 'whatever it is you want to add';
+   }
 }
