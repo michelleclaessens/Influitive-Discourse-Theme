@@ -191,18 +191,20 @@ html {
 }
 
 // New replies badge
-.badge-notification.new-posts, .badge-notification.unread-posts {
-   background: $tertiary;
-   color: $secondary;
-   font-size: $font-down-3;
-   text-transform: capitalize;
+.topic-list {
+   .badge-notification.new-posts, .badge-notification.unread-posts {
+      background: $tertiary;
+      color: $secondary;
+      font-size: $font-down-3;
+      text-transform: capitalize;
 
-   &::after {
-      content: " New Replies";
+      &::after {
+         content: " New Replies";
+      }
    }
-}
-.badge-notification.new-posts[title="you have 1 unread post in this topic"] {
-   &::after {
-      content: " New Reply";
+   .badge-notification.new-posts[title="you have 1 unread post in this topic"] {
+      &::after {
+         content: " New Reply";
+      }
    }
 }
