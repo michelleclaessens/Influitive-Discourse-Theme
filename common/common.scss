@@ -173,12 +173,12 @@ html {
    }
 }
 
-//Colour of category title
+// Colour of category title
 .category-list tbody .category h3 a[href] {
    color: $quaternary;
 }
 
-//New topic badge
+// New topic badge
 .badge-notification.new-topic {
    background: $tertiary;
    color: $secondary;
@@ -187,5 +187,17 @@ html {
 	
    &::before {
       content: attr(title);
+   }
+}
+
+// New replies badge
+.badge-notification.new-posts, .badge-notification.unread-posts {
+   background: $tertiary;
+   color: $secondary;
+   font-size: $font-down-3;
+   text-transform: capitalize;
+
+   &::after {
+      content: New Replies;
    }
 }
