@@ -95,23 +95,6 @@ html {
    }
 	
    // New topic button
-   /*.btn {
-      background-color: $tertiary;
-      color: $secondary;
-		
-      &[href] {
-         color: $secondary;
-      }
-
-      .discourse-no-touch & {
-         &:hover,
-         &.btn-hover {
-            background: $tertiary-high;
-	    color: $secondary;
-	 }
-      }
-   }*/
-	
    .btn {
       color: $secondary;
       background: $tertiary;
