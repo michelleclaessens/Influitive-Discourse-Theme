@@ -185,6 +185,6 @@ html {
    font-size: $font-down-2;
 	
    &::before {
-      content: 'whatever it is you want to add';
+      content: attr(title);
    }
 }
