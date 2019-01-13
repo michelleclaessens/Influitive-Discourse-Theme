@@ -124,8 +124,8 @@ html {
 
       .discourse-no-touch & {
          // only allow hover on no-touch devices
-         &:hover,
-         /*&.btn-hover {
+         &:hover/*,
+         &.btn-hover {
             background: dark-light-choose(
                scale-color($tertiary, $lightness: -20%),
 	       scale-color($tertiary, $lightness: 20%)
