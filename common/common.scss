@@ -235,6 +235,14 @@ h3.suggested-topics-message {
    padding: 16px 4px;
 }
 
+//
+.link-bottom-line .byline,
+.link-bottom-line .byline a {
+   color: $primary;
+   font-size: $font-down-1;
+   font-weight: 400;
+}
+
 // --------------------------------------------------
 // Topic Page
 // --------------------------------------------------
