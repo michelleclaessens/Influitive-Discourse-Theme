@@ -225,7 +225,8 @@ h3.suggested-topics-message {
 }
 
 // Pin colour
-.topic-list-icons .d-icon-thumbtack.unpinned, .latest-topic-list .d-icon-thumbtack.unpinned, .top-topic-list .d-icon-thumbtack.unpinned, .topic-list .d-icon-thumbtack.unpinned {
+.topic-list-icons .d-icon-thumbtack.unpinned, .latest-topic-list .d-icon-thumbtack.unpinned, .top-topic-list .d-icon-thumbtack.unpinned, .topic-list .d-icon-thumbtack.unpinned,
+.topic-list-icons .d-icon-thumbtack, .latest-topic-list .d-icon-thumbtack, .top-topic-list .d-icon-thumbtack, .topic-list .d-icon-thumbtack {
    color: $tertiary;
 }
 
