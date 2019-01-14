@@ -219,6 +219,11 @@ h3.suggested-topics-message {
    margin: 3px 16px 0 0;
 }
 
+// Hide the creator avatar from the posters list
+.posters:first-child {
+   display:none;
+}
+
 // --------------------------------------------------
 // Topic Page
 // --------------------------------------------------
