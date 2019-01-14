@@ -235,7 +235,7 @@ h3.suggested-topics-message {
    padding: 16px 4px;
 }
 
-//
+// Byline (poster name, date, category) text styles
 .link-bottom-line .byline {
    color: $primary;
    font-size: $font-down-1;
@@ -244,6 +244,7 @@ h3.suggested-topics-message {
    a {
       color: $primary;
       font-weight: 700;
+   }
 }
 
 // --------------------------------------------------
