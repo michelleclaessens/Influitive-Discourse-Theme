@@ -48,7 +48,7 @@
       </span>
       <div class="link-bottom-line">
          {{~#if topic.creator ~}}
-            By&nbsp;<a href="/users/{{topic.creator.username}}" data-auto-route="true" data-user-card="{{topic.creator.username}}">{{topic.creator.full-name}}</a> &nbsp; <a href={{topic.url}}>{{format-date topic.createdAt format="tiny"}}</a> &nbsp;ago in&nbsp;
+            By&nbsp;<a href="/users/{{topic.creator.username}}" data-auto-route="true" data-user-card="{{topic.creator.name}}">{{topic.creator.username}}</a> &nbsp; <a href={{topic.url}}>{{format-date topic.createdAt format="tiny"}}</a> &nbsp;ago in&nbsp;
          {{~/if ~}}
          
          {{#unless hideCategory}}
