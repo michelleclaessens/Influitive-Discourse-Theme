@@ -236,11 +236,14 @@ h3.suggested-topics-message {
 }
 
 //
-.link-bottom-line .byline,
-.link-bottom-line .byline a {
+.link-bottom-line .byline {
    color: $primary;
    font-size: $font-down-1;
    font-weight: 400;
+   
+   a {
+      color: $primary;
+      font-weight: 700;
 }
 
 // --------------------------------------------------
