@@ -30,9 +30,10 @@
    This causes the topic-post-badge to be considered the same word as "text"
    at the end of the link, preventing it from line wrapping onto its own line.
    --}}
-   <td>{{avatar topic.creator usernamePath="username" imageSize="medium"}}
-   </td>
    <td class='main-link clearfix' colspan="1">
+      <div class="creator-avatar">
+         {{avatar topic.creator usernamePath="username" imageSize="medium"}}
+      </div>
       <span class='link-top-line'>
          {{~raw-plugin-outlet name="topic-list-before-status"}}
          {{~raw "topic-status" topic=topic}}
