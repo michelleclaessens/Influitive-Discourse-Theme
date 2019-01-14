@@ -58,7 +58,8 @@
 </td>
 
 {{#if showPosters}}
-   test{{raw "list/posters-column" posters=topic.posters}}
+   {{avatar topic.lastPoster usernamePath="username" imageSize="medium"}}
+   {{raw "list/posters-column" posters=topic.posters}}
 {{/if}}
 
 {{raw "list/posts-count-column" topic=topic}}
