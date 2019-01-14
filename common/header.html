@@ -50,7 +50,7 @@
          {{~#if topic.creator ~}}
             <span class="byline">
                By <a href="/users/{{topic.creator.username}}" data-auto-route="true" data-user-card="{{topic.creator.username}}">{{topic.creator.name}}</a> 
-               <a href={{topic.url}}>{{format-date topic.createdAt format="tiny"}}</a> ago in&nbsp;
+               {{format-date topic.createdAt format="tiny"}} ago in&nbsp;
             </span>
          {{~/if ~}}
          
