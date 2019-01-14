@@ -9,6 +9,10 @@
 
 <script type='text/x-handlebars' data-template-name='list/topic-list-item.raw'>
   
-  <div style="height: 25px; width: 25px;background: red"></div>
+   {{#if bulkSelectEnabled}}
+      <td class='star'>
+         <input type='checkbox' class='bulk-select'>
+      </td>
+   {{/if}}
   
 </script>
