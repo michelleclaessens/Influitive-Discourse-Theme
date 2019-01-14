@@ -229,6 +229,11 @@ h3.suggested-topics-message {
    color: $tertiary;
 }
 
+// Spacing
+.topic-list th, .topic-list td {
+   padding: 16px 4px;
+}
+
 // --------------------------------------------------
 // Topic Page
 // --------------------------------------------------
