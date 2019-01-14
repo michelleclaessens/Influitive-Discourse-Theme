@@ -58,7 +58,7 @@
 </td>
 
 {{#if showPosters}}
-   {{avatar topic.lastPoster usernamePath="username" imageSize="medium"}}
+   {{avatar topic.creator usernamePath="username" imageSize="medium"}}
    {{raw "list/posters-column" posters=topic.posters}}
 {{/if}}
 
