@@ -11,8 +11,14 @@
   <div style="height: 25px; width: 25px;background: green">Hello</div>
 </script>
 
-<script type="text/x-handlebars" data-template-name="/connectors/topic-above-post-stream/foobar">
-  <div style="height: 200px; width: 200px;background: pink"></div>
+<script type="text/x-handlebars" data-template-name="list/posters-column.raw">
+<td class='posters theme-avatar-{{themeSettings.latest_avatar_size}}'>
+  {{#each posters as |poster|}}
+    <a href="{{poster.user.path}}" data-user-card="{{poster.user.username}}" class="{{poster.extraClasses}}">
+      {{avatar poster avatarTemplatePath="user.avatar_template" usernamePath="user.username" imageSize=themeSettings.latest_avatar_size}}
+    </a>
+  {{/each}}
+</td>
 </script>
 
 <script type='text/x-handlebars' data-template-name='/connectors/above-site-header/brand-header'>
