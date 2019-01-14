@@ -27,26 +27,6 @@ html {
 }
 
 // --------------------------------------------------
-// Testing
-// --------------------------------------------------
-
-.hello-world-banner {
-   height: 300px;
-   width: 100%;
-   background: $instagram;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   margin-bottom: 1em;
-}
-
-.hello-world {
-   font-size: $font-up-6;
-   font-weight:700;
-   color: $secondary;
-}
-
-// --------------------------------------------------
 // Buttons
 // --------------------------------------------------
 
@@ -247,7 +227,7 @@ h3.suggested-topics-message {
       text-decoration: underline;
    }
 }
-.badge-wrapper {
+.link-bottom-line .badge-wrapper {
    font-weight: 400;
    text-decoration: underline;
 }
