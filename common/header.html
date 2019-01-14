@@ -50,13 +50,13 @@
          {{~#if topic.creator ~}}
             <span class="byline">
                By <a href="/users/{{topic.creator.username}}" data-auto-route="true" data-user-card="{{topic.creator.username}}">{{topic.creator.name}}</a> 
-               {{format-date topic.createdAt format="tiny"}} ago in&nbsp;
+               {{format-date topic.createdAt format="tiny"}} ago&nbsp;
             </span>
          {{~/if ~}}
          
          {{#unless hideCategory}}
             {{#unless topic.isPinnedUncategorized}}
-               {{category-link topic.category}}
+               in&nbsp;{{category-link topic.category}}
             {{/unless}}
          {{/unless}}
          {{discourse-tags topic mode="list" tagsForUser=tagsForUser}}
