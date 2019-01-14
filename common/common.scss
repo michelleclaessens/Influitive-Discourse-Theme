@@ -243,8 +243,13 @@ h3.suggested-topics-message {
    
    a {
       color: $primary-high;
-      font-weight: 700;
+      font-weight: 400;
+      text-decoration: underline;
    }
+}
+.badge-wrapper {
+   font-weight: 400;
+   text-decoration: underline;
 }
 
 // --------------------------------------------------
