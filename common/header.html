@@ -7,13 +7,13 @@
       api.replaceIcon('heart', 'thumbs-up');
 </script>
 
-<script type="text/x-handlebars" data-template-name="components/topic-title">
+<!--<script type="text/x-handlebars" data-template-name="components/topic-title">
   <div style="height: 25px; width: 25px;background: green">Hello</div>
 </script>
 
 <script type="text/x-handlebars" data-template-name="/connectors/below-footer/fancy-footer">
    <div style="height: 25px; width: 25px;background: red">Hello</div>
-</script>
+</script>-->
 
 <script type='text/x-handlebars' data-template-name='list/topic-list-item.raw'>
 
@@ -31,6 +31,7 @@
    at the end of the link, preventing it from line wrapping onto its own line.
    --}}
    <td class='main-link clearfix' colspan="1">
+      {{avatar topic.creator usernamePath="username" imageSize="medium"}}
       <span class='link-top-line'>
          {{~raw-plugin-outlet name="topic-list-before-status"}}
          {{~raw "topic-status" topic=topic}}
@@ -58,7 +59,6 @@
 </td>
 
 {{#if showPosters}}
-   {{avatar topic.creator usernamePath="username" imageSize="medium"}}
    {{raw "list/posters-column" posters=topic.posters}}
 {{/if}}
 
@@ -90,58 +90,3 @@
    {{raw "list/activity-column" topic=topic class="num" tagName="td"}}
       
 </script>
-      
-<!--<script type='text/x-handlebars' data-template-name='list/topic-list-item.raw'>
-  
-   {{#if bulkSelectEnabled}}
-      <td class='star'>
-         <input type='checkbox' class='bulk-select'>
-      </td>
-   {{/if}}
-   
-   <td class='main-link clearfix'>
-      {{raw "topic-status" topic=topic}}
-      {{topic-link topic}}
-      {{#if controller.showTopicPostBadges}}
-         {{raw "topic-post-badges" unread=topic.unread newPosts=topic.displayNewPosts unseen=topic.unseen url=topic.lastUnreadUrl}}
-      {{/if}}
-      {{discourse-tags topic mode="list"}}
-      {{raw "list/topic-excerpt" topic=model}}
-      <div class='creator'>
-         {{#if showCategory}}
-            {{category-link topic.category}}
-         {{/if}}
-         {{~#if topic.creator ~}}
-            <a href="/users/{{topic.creator.username}}" data-auto-route="true" data-user-card="{{topic.creator.username}}">{{topic.creator.username}}</a> <a href={{topic.url}}>{{format-date topic.createdAt format="tiny"}}</a>
-         {{~/if ~}}
-         {{raw "list/action-list" topic=topic postNumbers=topic.liked_post_numbers className="likes" icon="heart"}}
-      </div>
-   </td>
-   
-   {{#if controller.showLikes}}
-      <td class="num likes">
-         {{number topic.like_count}} <i class='fa fa-heart'></i>
-      </td>
-   {{/if}}
-   
-   {{#if controller.showOpLikes}}
-      <td class="num likes">
-         {{number topic.op_like_count}} <i class='fa fa-heart'></i>
-      </td>
-   {{/if}}
-
-   {{raw "list/posts-count-column" topic=topic}}
-
-   <td class="last-post">
-      <div class='poster-avatar'>
-         <a href="{{topic.lastPostUr}}" data-user-card="{{topic.last_poster_username}}">{{avatar topic.lastPoster usernamePath="username" imageSize="medium"}}</a>
-      </div>
-      <div class='poster-info'>
-         <a href="{{topic.lastPostUrl}}">
-            {{format-date topic.bumpedAt format="tiny"}}
-         </a>
-         <span class='editor'><a href="/users/{{topic.last_poster_username}}" data-auto-route="true" data-user-card="{{topic.last_poster_username}}">{{topic.last_poster_username}}</a></span>
-      </div>
-   </td>
-   
-</script>-->
