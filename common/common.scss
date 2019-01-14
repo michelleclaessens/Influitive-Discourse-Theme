@@ -136,7 +136,7 @@ h3.suggested-topics-message {
 
 // Visited and not visited topics
 .topic-list-item.visited a.title:not(.badge-notification), .latest-topic-list-item.visited a.title:not(.badge-notification), .category-topic-link.visited a.title:not(.badge-notification) {
-   color: $primary;
+   color: $primary-high;
    font-weight: 400;
 }
 .topic-list-main-link a.title, .topic-list .main-link a.title, .latest-topic-list-item .main-link a.title {
