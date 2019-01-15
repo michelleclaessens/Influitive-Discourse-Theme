@@ -4,7 +4,7 @@ $primary-low: dark-light-diff($primary, $secondary, 90%, -78%);
 $primary-low-mid: dark-light-diff($primary, $secondary, 70%, -45%);
 $primary-medium: dark-light-diff($primary, $secondary, 50%, -35%);
 //$primary-high: dark-light-diff($primary, $secondary, 30%, -25%);
-$primary-high: dark-light-diff($primary, $secondary, 30%, -20%);
+$primary-high: red; //dark-light-diff($primary, $secondary, 30%, -20%);
 
 // --------------------------------------------------
 // Fonts
