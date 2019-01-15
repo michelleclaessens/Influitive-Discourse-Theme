@@ -226,7 +226,7 @@ h3.suggested-topics-message {
    padding-top: 2px;
 }
 
-// Byline (poster name, date, category) text styles
+// Byline (poster name, date, category) text
 .link-bottom-line .byline {
    color: $primary-high;
    font-size: $font-down-1;
@@ -244,6 +244,9 @@ h3.suggested-topics-message {
 }
 .badge-wrapper.none {
    color: $primary-high;
+}
+.byline a.creator:before {
+   content: "By";
 }
 
 // --------------------------------------------------
