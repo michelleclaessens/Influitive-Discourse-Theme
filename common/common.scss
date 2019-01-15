@@ -137,14 +137,6 @@ html {
    border-left: none;
 }
 
-// Smaller footer message
-.footer-message h3,
-h3.suggested-topics-message {
-   color: $primary-high;
-   font-size: $font-0;
-   font-weight: 400;
-}
-
 // Visited and not visited topics
 .topic-list-item.visited a.title:not(.badge-notification), .latest-topic-list-item.visited a.title:not(.badge-notification), .category-topic-link.visited a.title:not(.badge-notification) {
    color: $primary-high;
@@ -251,6 +243,23 @@ h3.suggested-topics-message {
 .badge-wrapper.none {
    color: $primary-high;
 }
+
+// --------------------------------------------------
+// Footer Message
+// --------------------------------------------------
+
+// Smaller footer message
+.footer-message,
+.suggested-topics {
+   h3 {
+      color: $primary-high;
+      font-size: $font-0;
+      font-weight: 400;
+   }
+}
+
+// Hide category link
+
 
 // --------------------------------------------------
 // Topic Page
