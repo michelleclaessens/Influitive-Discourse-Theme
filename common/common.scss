@@ -117,6 +117,11 @@ html {
 // Topic List
 // --------------------------------------------------
 
+// Table header colours
+.topic-list th {
+   color: $primary-high;
+}
+
 // Remove the "last visit" line
 .topic-list-item-separator {
    display: none;
