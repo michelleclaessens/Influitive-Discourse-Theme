@@ -54,13 +54,11 @@
             </span>
          {{~/if ~}}
          
-         {{~#if topic.category ~}}
          {{#unless hideCategory}}
             {{#unless topic.isPinnedUncategorized}}
                <span class="byline">&nbsp;&#183;&nbsp;</span>{{category-link topic.category}}
             {{/unless}}
          {{/unless}}
-         {{~/if ~}}
          {{discourse-tags topic mode="list" tagsForUser=tagsForUser}}
          {{raw "list/action-list" topic=topic postNumbers=topic.liked_post_numbers className="likes" icon="heart"}}
       </div>
