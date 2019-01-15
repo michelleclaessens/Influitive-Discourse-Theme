@@ -1,6 +1,9 @@
 @import "common/foundation/variables";
-//$primary-medium: dark-light-diff($primary, $secondary, 50%, -35%);
-$primary-medium: dark-light-diff($primary, $secondary, 45%, -35%);
+$primary-very-low: dark-light-diff($primary, $secondary, 97%, -82%);
+$primary-low: dark-light-diff($primary, $secondary, 90%, -78%);
+$primary-low-mid: dark-light-diff($primary, $secondary, 70%, -45%);
+$primary-medium: dark-light-diff($primary, $secondary, 50%, -35%);
+$primary-high: dark-light-diff($primary, $secondary, 30%, -25%);
 
 // --------------------------------------------------
 // Fonts
@@ -139,7 +142,7 @@ h3.suggested-topics-message {
 
 // Visited and not visited topics
 .topic-list-item.visited a.title:not(.badge-notification), .latest-topic-list-item.visited a.title:not(.badge-notification), .category-topic-link.visited a.title:not(.badge-notification) {
-   color: $primary-medium;
+   color: $primary-high;
    font-weight: 400;
 }
 .topic-list-main-link a.title, .topic-list .main-link a.title, .latest-topic-list-item .main-link a.title {
