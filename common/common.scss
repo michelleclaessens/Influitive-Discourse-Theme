@@ -245,8 +245,8 @@ h3.suggested-topics-message {
 .badge-wrapper.none {
    color: $primary-high;
 }
-.byline a.creator:before {
-   content: "By";
+.byline a.creator:empty:before {
+   content: "By ";
 }
 
 // --------------------------------------------------
