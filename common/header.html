@@ -56,7 +56,9 @@
          
          {{#unless hideCategory}}
             {{#unless topic.isPinnedUncategorized}}
+               {{~#if topic.category ~}}
                <span class="byline">&nbsp;&#183;&nbsp;</span>{{category-link topic.category}}
+               {{~/if ~}}
             {{/unless}}
          {{/unless}}
          {{discourse-tags topic mode="list" tagsForUser=tagsForUser}}
