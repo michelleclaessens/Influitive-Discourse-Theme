@@ -49,7 +49,7 @@
       <div class="link-bottom-line">
          {{~#if topic.creator ~}}
             <span class="byline">
-               <a href="/users/{{topic.creator.username}}" data-auto-route="true" data-user-card="{{topic.creator.username}}" class="creator">{{topic.creator.name}}</a> 
+               By <a href="/users/{{topic.creator.username}}" data-auto-route="true" data-user-card="{{topic.creator.username}}" class="creator">{{topic.creator.name}}</a> 
                &#183; {{format-date topic.createdAt format="tiny"}}
             </span>
          {{~/if ~}}
