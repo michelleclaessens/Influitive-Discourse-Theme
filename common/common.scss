@@ -1,10 +1,5 @@
 @import "common/foundation/variables";
-$primary-very-low: dark-light-diff($primary, $secondary, 97%, -82%);
-$primary-low: dark-light-diff($primary, $secondary, 90%, -78%);
-$primary-low-mid: dark-light-diff($primary, $secondary, 70%, -45%);
-$primary-medium: dark-light-diff($primary, $secondary, 50%, -35%);
-//$primary-high: dark-light-diff($primary, $secondary, 30%, -25%);
-$primary-high: dark-light-diff($primary, $secondary, 35%, -25%);
+$primary-high: dark-light-diff($primary, $secondary, 35%, -25%); //Adjust for accessibility
 
 // --------------------------------------------------
 // Fonts
@@ -226,6 +221,9 @@ h3.suggested-topics-message {
 // Spacing
 .topic-list th, .topic-list td {
    padding: 16px 4px;
+}
+.topic-list .link-bottom-line {
+   padding-top: 2px;
 }
 
 // Byline (poster name, date, category) text styles
