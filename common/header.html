@@ -102,7 +102,7 @@
 
 <script type='text/x-handlebars' data-template-name='components/topic-category'>
 
-   <a href="/">Home</a>&nbsp;/&nbsp;
+   <span class="topic-breadcrumb"><a href="/">Home</a>&nbsp;/&nbsp;</span>
    {{#unless topic.isPrivateMessage}}
       {{#if topic.category.parentCategory}}
          {{bound-category-link topic.category.parentCategory}}
