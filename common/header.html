@@ -99,3 +99,26 @@
    {{raw "list/activity-column" topic=topic class="num" tagName="td"}}
       
 </script>
+
+<script type='text/x-handlebars' data-template-name='components/topic-category.raw'>
+
+   {{#unless topic.isPrivateMessage}}
+      {{#if topic.category.parentCategory}}
+         {{bound-category-link topic.category.parentCategory}}
+      {{/if}}
+      {{bound-category-link topic.category hideParent=true}}
+   {{/unless}}
+   <div class="topic-header-extra">
+      {{#if siteSettings.tagging_enabled}}
+         <div class="list-tags">
+            {{discourse-tags topic mode="list"}}
+         </div>
+      {{/if}}
+      {{#if siteSettings.topic_featured_link_enabled}}
+         {{topic-featured-link topic}}
+      {{/if}}
+   </div>
+
+   Michelle {{plugin-outlet name="topic-category" args=(hash topic=topic category=topic.category)}}
+
+</script>
