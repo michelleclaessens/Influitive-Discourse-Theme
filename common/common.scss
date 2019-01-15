@@ -256,6 +256,9 @@ html {
       font-size: $font-0;
       font-weight: 400;
    }
+   a[href="/caategories"] {
+      display: none;
+   }
 }
 
 // Hide category link
