@@ -289,3 +289,15 @@ h3.suggested-topics-title {
 .suggested-topics {
    padding-top:140px;
 }
+
+// Topic breadcrumb
+.topic-breadcrumb {
+   color: $primary-high;
+   font-size: $font-down-1;
+   
+   a {
+      color: $primary-high;
+      font-weight: 400;
+      text-decoration: underline;
+   }
+}
