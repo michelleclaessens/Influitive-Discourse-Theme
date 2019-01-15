@@ -31,7 +31,6 @@ html {
 // --------------------------------------------------
 
 .btn {
-   color: $twitter;
    border-radius: 3px;
 }
 
@@ -77,7 +76,7 @@ html {
 	
    // New topic button
    .btn {
-      color: $secondary;
+      color: $twitter;
       background: $tertiary;
 
       &[href] {
