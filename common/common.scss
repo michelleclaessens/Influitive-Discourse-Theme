@@ -117,8 +117,9 @@ html {
 // Topic List
 // --------------------------------------------------
 
-// Table header colours
-.topic-list th {
+// Table text colours (accessible)
+.topic-list th,
+.topic-list td {
    color: $primary-high;
 }
 
