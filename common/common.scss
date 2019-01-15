@@ -236,12 +236,11 @@ html {
       text-decoration: underline;
    }
 }
-.link-bottom-line .badge-wrapper {
-   font-weight: 400;
-   text-decoration: underline;
-}
+.link-bottom-line .badge-wrapper,
 .badge-wrapper.none {
    color: $primary-high;
+   font-weight: 400;
+   text-decoration: underline;
 }
 
 // --------------------------------------------------
