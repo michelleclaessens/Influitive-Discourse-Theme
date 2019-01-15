@@ -140,7 +140,7 @@ h3.suggested-topics-message {
    font-weight: 400;
 }
 .topic-list-main-link a.title, .topic-list .main-link a.title, .latest-topic-list-item .main-link a.title {
-   color: $quaternary;
+   color: $primary;
    font-weight: 700;
 }
 
@@ -156,7 +156,7 @@ h3.suggested-topics-message {
 
 // Colour of category title
 .category-list tbody .category h3 a[href] {
-   color: $quaternary;
+   color: $primary;
 }
 
 // New topic badge
