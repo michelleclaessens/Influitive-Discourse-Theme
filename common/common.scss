@@ -71,6 +71,14 @@ input[type="text"], input[type="password"], input[type="datetime"], input[type="
    color: $primary;
    font-size: $font-up-4;
 }
+
+// Spacing
+#reply-control .reply-area {
+   padding: 16px 24px;
+}
+.d-editor-preview {
+   padding: 0 16px;
+}
 	
 // --------------------------------------------------
 // List Controls
