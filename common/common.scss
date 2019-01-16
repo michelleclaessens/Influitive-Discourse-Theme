@@ -281,12 +281,12 @@ html {
    display: none;
 }
 
-// Hide text from inline reply buttons
+// Hide text from inline reply buttons and lighten icon
 nav.post-controls button.reply {
    .d-button-label {
       display: none;
    }
-   color: $primary-low-mid;
+   color: $primary-medium;
 }
 
 // Suggested topics list
