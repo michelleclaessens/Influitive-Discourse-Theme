@@ -307,6 +307,11 @@ nav.post-controls {
    }
 }
 
+// Hide the timeline controls
+.timeline-container .topic-timeline .timeline-footer-controls {
+   display: none;
+}
+
 // Suggested topics list
 h3.suggested-topics-title {
    color: $quaternary;
