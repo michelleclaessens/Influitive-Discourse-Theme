@@ -7,6 +7,22 @@
       api.replaceIcon('heart', 'thumbs-up');
 </script>
 
+<script type='text/x-handlebars' data-template-name='topic-list-header.raw'>
+  {{raw "topic-list-header-column" order='default' name=listTitle bulkSelectEnabled=bulkSelectEnabled showBulkToggle=toggleInTitle canBulkSelect=canBulkSelect}}
+ 
+  {{#if showLikes}}
+     {{raw "topic-list-header-column" sortable='true' order='likes' number='true' forceName='Likes'}}
+  {{/if}}
+  {{#if showOpLikes}}
+     {{raw "topic-list-header-column" sortable='true' order='op_likes' number='true' forceName='Likes'}}
+  {{/if}}
+  
+  {{raw "topic-list-header-column" sortable=sortable number='true' order='views' name='views'}}
+  {{raw "topic-list-header-column" sortable=sortable number='true' order='posts' name='replies'}}
+  {{raw "topic-list-header-column" sortable=sortable number='true' order='activity' name='activity'}}
+  
+</script>
+
 <!--<script type='text/x-handlebars' data-template-name='topic-list-header.raw'>
 
    {{#if bulkSelectEnabled}}
