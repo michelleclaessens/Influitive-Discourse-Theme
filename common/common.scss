@@ -117,7 +117,7 @@ html {
 
 // Hide the posters column header
 .topic-list th.posters {
-   content: "";
+   display: none;
 }
 
 // Table text colours (accessible)
