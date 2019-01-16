@@ -137,6 +137,20 @@ html {
    border-left: none;
 }
 
+// Category text style
+.link-bottom-line .badge-wrapper,
+.badge-wrapper.none {
+   color: $primary-high;
+   font-weight: 400;
+   text-decoration: underline;
+}
+.category-breadcrumb .badge-wrapper.none,
+.category-input .badge-wrapper.none,
+.select-kit.combo-box.category-drop .select-kit-row .badge-wrapper {
+   text-decoration: none;
+   font-weight: 400;
+}
+
 // Visited and not visited topics
 .topic-list-item.visited a.title:not(.badge-notification), .latest-topic-list-item.visited a.title:not(.badge-notification), .category-topic-link.visited a.title:not(.badge-notification) {
    color: $primary-high;
@@ -237,18 +251,6 @@ html {
    }
 }
 
-.link-bottom-line .badge-wrapper,
-.badge-wrapper.none {
-   color: $primary-high;
-   font-weight: 400;
-   text-decoration: underline;
-}
-.category-breadcrumb .badge-wrapper.none,
-.category-input .badge-wrapper.none{
-   text-decoration: none;
-   font-weight: 400;
-}
-
 // --------------------------------------------------
 // Footer Message
 // --------------------------------------------------
@@ -264,9 +266,6 @@ html {
    }
 
 }
-
-
-
 
 // --------------------------------------------------
 // Topic Page
