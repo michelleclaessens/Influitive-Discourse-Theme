@@ -115,6 +115,11 @@ html {
 // Topic List
 // --------------------------------------------------
 
+// Hide the posters column header
+.topic-list th.posters {
+   content: none;
+}
+
 // Table text colours (accessible)
 .topic-list th,
 .topic-list td {
