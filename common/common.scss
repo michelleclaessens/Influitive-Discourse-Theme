@@ -281,6 +281,11 @@ html {
    display: none;
 }
 
+// Hide text from inline reply buttons
+nav.post-controls button.reply .label {
+   display: none;
+}
+
 // Suggested topics list
 h3.suggested-topics-title {
    color: $quaternary;
