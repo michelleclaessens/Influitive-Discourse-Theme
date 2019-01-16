@@ -61,6 +61,11 @@ input[type="text"], input[type="password"], input[type="datetime"], input[type="
    border-top: 3px double $primary-medium;
 }
 
+// Hide message button
+.select-kit.dropdown-select-box.composer-actions {
+   display: none;
+}
+
 // --------------------------------------------------
 // List Controls
 // --------------------------------------------------
