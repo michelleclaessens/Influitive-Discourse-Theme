@@ -282,15 +282,29 @@ html {
 }
 
 // Hide text from inline reply buttons and lighten icon
-nav.post-controls button.reply {
-   .d-button-label {
-      display: none;
+nav.post-controls {
+      
+   button.create {
+      margin-left: 0;
    }
-   color: $primary-medium;
-   &.d-hover,
-   &:focus {
-      background: $primary-low;
-      color: $primary;
+	
+   button.reply {
+         
+	 .d-button-label {
+            display: none;
+         }
+         
+	 color: $primary-medium;
+         
+	 &.d-hover,
+         &:focus {
+            background: $primary-low;
+            color: $primary;
+         }
+	      
+	 .create .d-icon {
+	    margin-right: 0;
+	 }
    }
 }
 
