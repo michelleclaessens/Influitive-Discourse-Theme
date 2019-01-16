@@ -243,7 +243,8 @@ html {
    font-weight: 400;
    text-decoration: underline;
 }
-.category-breadcrumb .badge-wrapper.none {
+.category-breadcrumb .badge-wrapper.none,
+.category-input .badge-wrapper.none{
    text-decoration: none;
 }
 
