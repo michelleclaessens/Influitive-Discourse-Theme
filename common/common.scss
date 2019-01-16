@@ -267,11 +267,20 @@ html {
 // --------------------------------------------------
 
 .footer-message,
-.suggested-topics,
-#suggested-topics {
+.suggested-topics {
    
    // Smaller footer message
    h3 {
+      color: $primary-high;
+      font-size: $font-0;
+      font-weight: 400;
+   }
+}
+
+#suggested-topics {
+   
+   // Smaller footer message
+   h3.suggested-topics-message {
       color: $primary-high;
       font-size: $font-0;
       font-weight: 400;
