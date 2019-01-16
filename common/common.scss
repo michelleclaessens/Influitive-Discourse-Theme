@@ -116,7 +116,7 @@ html {
 // --------------------------------------------------
 
 // Hide the posters column header
-.topic-list th.posters:after {
+.topic-list th.posters::after {
    content: "";
 }
 
