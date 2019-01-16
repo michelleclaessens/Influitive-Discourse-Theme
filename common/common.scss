@@ -116,6 +116,12 @@ html {
 // Topic List
 // --------------------------------------------------
 
+// Sorted columns icon
+.topic-list th.sortable .svg-icon, .svg-icon-title {
+   height: 0.7em;
+   width: 0.7em;
+}
+
 // Table text colours (accessible)
 .topic-list th,
 .topic-list td {
