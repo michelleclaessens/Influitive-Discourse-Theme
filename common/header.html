@@ -70,10 +70,9 @@
          {{~#if topic.creator ~}}
             <span class="byline">By&nbsp;<a href="/users/{{topic.creator.username}}" data-auto-route="true" data-user-card="{{topic.creator.username}}" class="creator">{{topic.creator.name}}</a>&nbsp;&#183;&nbsp;{{format-date topic.createdAt format="tiny"}}</span>
          {{~/if ~}}
-         
          {{#unless hideCategory}}
             {{#unless topic.isPinnedUncategorized}}
-               <span class="byline"> &#183;&nbsp;</span>{{category-link topic.category}}
+<span class="byline">&nbsp;&#183;&nbsp;</span>{{category-link topic.category}}
             {{/unless}}
          {{/unless}}
          {{discourse-tags topic mode="list" tagsForUser=tagsForUser}}
