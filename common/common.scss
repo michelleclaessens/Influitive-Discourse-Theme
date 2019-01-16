@@ -233,9 +233,13 @@ html {
 }
 .topic-list .link-bottom-line {
    padding-top: 2px;
+   margin-left: 48px;
 }
 .topic-list-bottom {
    margin: 32px 0;
+}
+.topic-list .topic-excerpt {
+   margin-left: 48px;
 }
 
 // Byline (poster name, date, category) text
