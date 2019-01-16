@@ -56,6 +56,10 @@ input[type="text"], input[type="password"], input[type="datetime"], input[type="
 .open .grippie {
    background: $secondary;
    border-bottom: 1px solid $primary-low;
+	
+   ::before {
+      border-top: 3px double #primary-medium;
+   }
 }
 
 // --------------------------------------------------
