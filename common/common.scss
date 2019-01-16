@@ -282,8 +282,11 @@ html {
 }
 
 // Hide text from inline reply buttons
-nav.post-controls button.reply .d-button-label {
-   display: none;
+nav.post-controls button.reply {
+   .d-button-label {
+      display: none;
+   }
+   color: $primary-low-mid;
 }
 
 // Suggested topics list
