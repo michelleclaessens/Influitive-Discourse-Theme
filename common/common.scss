@@ -66,6 +66,12 @@ input[type="text"], input[type="password"], input[type="datetime"], input[type="
    display: none;
 }
 
+// Title text style
+#reply-control .reply-to .composer-action-title .action-title {
+   color: $primary;
+   font-size: $font-up-4;
+}
+	
 // --------------------------------------------------
 // List Controls
 // --------------------------------------------------
