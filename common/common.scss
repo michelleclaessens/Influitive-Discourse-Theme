@@ -230,7 +230,9 @@ html {
 
 // Pin colour
 .topic-list-icons .d-icon-thumbtack.unpinned, .latest-topic-list .d-icon-thumbtack.unpinned, .top-topic-list .d-icon-thumbtack.unpinned, .topic-list .d-icon-thumbtack.unpinned,
-.topic-list-icons .d-icon-thumbtack, .latest-topic-list .d-icon-thumbtack, .top-topic-list .d-icon-thumbtack, .topic-list .d-icon-thumbtack {
+.topic-list-icons .d-icon-thumbtack, .latest-topic-list .d-icon-thumbtack, .top-topic-list .d-icon-thumbtack, .topic-list .d-icon-thumbtack,
+.topic-list-icons .d-icon-thumb-tack, .latest-topic-list .d-icon-thumb-tack, .top-topic-list .d-icon-thumb-tack, .topic-list .d-icon-thumb-tack,
+.topic-list-icons .d-icon-thumb-tack.unpinned, .latest-topic-list .d-icon-thumb-tack.unpinned, .top-topic-list .d-icon-thumb-tack.unpinned, .topic-list .d-icon-thumb-tack.unpinned {
    color: $tertiary;
 }
 
