@@ -286,6 +286,9 @@ nav.post-controls {
       
    button.create {
       margin-left: 0;
+      .d-icon {
+         margin-right: 0;
+      } 
    }
 	
    button.reply {
@@ -301,10 +304,6 @@ nav.post-controls {
             background: $primary-low;
             color: $primary;
          }
-	      
-	 .create .d-icon {
-	    margin-right: 0;
-	 }
    }
 }
 
